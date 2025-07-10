@@ -11,7 +11,7 @@ function output()
   var school = document.getElementById("school").value;
   let grade = document.getElementById("grade").value;  
 
-  let output = "Name: <b>" + name + "</b><br?";
+  let output = "Name: <b>" + name + "</b><br>";
   output += "Grade: <b>" + grade + "</b><br>";
   output += "School: <b>" + school + "</b><br>";
 

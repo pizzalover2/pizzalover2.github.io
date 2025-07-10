@@ -7,7 +7,7 @@ alert(`"This page was created in the STEM Prep ${course} by ${myName}`);
 
 function output()
 {
-  let name = document.getElementById("name).value;
+  let name = document.getElementById("name").value;
   var school = document.getElementById("school").value;
   let grade = document.getElementById("grade").value;  
 

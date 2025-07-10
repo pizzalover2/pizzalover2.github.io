@@ -5,7 +5,7 @@ console.log(`"This page was created in the STEM Prep ${course} by ${myName}`);
 
 alert(`"This page was created in the STEM Prep ${course} by ${myName}`);
 
-function output 
+function output()
 {
   let name = document.getElementById("name).value;
   var school = document.getElementById("school").value;

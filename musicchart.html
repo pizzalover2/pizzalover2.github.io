@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+    <style>
+      body{
+        background-color: #e7d7fc;
+      }
+    </style>
+    <script src="plotly-3.0.1.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <center>
+  <h1>My Favorite Drake Songs:</h1>
+  <div id="plot"></div>
+  <script>
+    let songs = ["Somebody Loves Me", "Over My Dead Body", "Love All"];
+    let views = [19000000, 34000000, 21000000];
+    let trace = {
+      x: songs,
+      y: views,
+      type: "bar"
+    };
+    let data = [trace];
+    Plotly.newPlot("plot", data);
+  </script>    
+</center>
+    
+    <footer>
+      <center>
+        <hr>
+        <p><em>Maya's Website &copy; 2025</em></p>
+      </center>
+    </footer>
+  </body>
+</html>
